@@ -6,6 +6,8 @@ The game is fully written in C++ using SDL2. Maze is randomly generated upon eac
 
 If you die, just close the window, it currently doesn't support in-game restarting.
 
+Controls: use WASD to move.
+
 # ![screenshot](https://raw.githubusercontent.com/Prokopiy19/maze_runner/master/screenshot.png)
 
 # Compiling
