@@ -90,10 +90,7 @@ int main(int argc, char* args[])
         if (!hero.is_alive()) {
             app.pause();
         }
-
-        if (hero.collider()->x() >= kWidth - 10) {
-            current_scene = SCENE_WIN;
-        }
+        
         // std::cout << app.fps() << " " << app.avg_fps() << std::endl;
     }
 
