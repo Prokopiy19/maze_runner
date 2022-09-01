@@ -10,6 +10,6 @@ If you die, just close the window, it currently doesn't support in-game restarti
 
 The game was compiled using following command:
 
-  clang++ src/*.cpp `sdl2-config --cflags --libs` `pkg-config sdl2_image --cflags --libs` `pkg-config sdl2_ttf --cflags --libs` -std=c++20
+    clang++ src/*.cpp `sdl2-config --cflags --libs` `pkg-config sdl2_image --cflags --libs` `pkg-config sdl2_ttf --cflags --libs` -std=c++20
 
 It was done in msys2 building environment. If you compile the game yourself, you will need .dll files which are shipped with msys2.
